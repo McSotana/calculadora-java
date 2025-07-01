@@ -9,9 +9,8 @@ Digite o primeiro número: 10
 Digite o segundo número: 5
 Escolha a operação (+, -, *, /): *
 Resultado: 50.0
-```
 
-📖 Sobre o Projeto
+Sobre o Projeto
 
 Este projeto foi criado como um exercício prático para reforçar os pilares da linguagem Java. O foco foi criar um código limpo, com funções bem definidas para cada operação matemática e uma interação clara com o usuário através do console. É um ótimo exemplo de aplicação de console simples e funcional.
 
