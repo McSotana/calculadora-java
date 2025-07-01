@@ -1,0 +1,24 @@
+Explicação do Código
+
+1. import java.util.Scanner;: Importa a classe Scanner, que é a ferramenta padrão do Java para ler entradas do teclado no console.
+
+2. Scanner leitor = new Scanner(System.in);: Cria um objeto chamado leitor que fica "ouvindo" o que o usuário digita no terminal (System.in).
+
+3. double numero1, numero2, resultado;: Declara variáveis do tipo double para armazenar os números da operação e o resultado. Usamos double para permitir números com casas decimais (ex: 5.5).
+
+4. char operador;: Declara uma variável do tipo char para guardar o operador (+, -, etc.), que é um único caractere.
+
+5. System.out.print(...): Exibe uma mensagem para o usuário no terminal, instruindo-o a digitar um número ou operador.
+
+6. leitor.nextDouble() e leitor.next().charAt(0): São os comandos que efetivamente pausam o programa e esperam que o usuário digite um número (nextDouble) ou um caractere (next().charAt(0)), respectivamente.
+
+7. switch (operador): Esta é a estrutura principal da nossa lógica. Ela verifica o valor da variável operador:
+	-Se for '+', executa o código dentro de case '+':.
+	-Se for '-', executa o código dentro de case '-':.
+	-E assim por diante.
+
+8. Tratamento de Erros:
+	-No caso da divisão (/), há um if que verifica se o segundo número é zero. Se for, exibe uma mensagem de erro em vez de tentar a divisão.
+	-O default: no switch é executado se o usuário digitar um operador que não seja nenhum dos esperados.
+
+9. leitor.close();: É uma boa prática fechar o Scanner quando não precisar mais dele para liberar os recursos do sistema.
